@@ -3,8 +3,6 @@ $include (c8051f120.inc)
 cseg at 0000H
   jmp main
 
-cseg at
-
 cseg at 0050H
 main:
   clr EA
