@@ -1,3 +1,4 @@
+# T  = 15 + (ADC0L - 64H) / 5
 $include (c8051f120.inc)
 
 cseg at 0000H
