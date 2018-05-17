@@ -10,7 +10,7 @@ main:
 	mov WDTCN, #0DEh
 	mov WDTCN, #0ADh
 	setb EA
-	mov A, #02d
+	mov A, #12d
 	push Acc
 	
 	mov R1, #06d
@@ -20,6 +20,7 @@ loop:
 	push Acc
 	mov A, B
 	rlc A
+	mov B, A
 	pop Acc
 	djnz R1, loop
 
