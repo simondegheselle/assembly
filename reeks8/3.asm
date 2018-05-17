@@ -1,5 +1,5 @@
 cseg at 0000H
-	jmp main
+  jmp main
 	
 cseg at 0050H
 
