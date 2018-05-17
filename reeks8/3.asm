@@ -13,6 +13,7 @@ verm: mov 33H,#00H
   mov 34H, #00H
   mov 30H, #251d
   mov 31H, #254d
+  mov 32H, #00d
   mov A, 30H
 loop:
   clr C
