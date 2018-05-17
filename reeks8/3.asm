@@ -1,3 +1,14 @@
+cseg at 0000H
+	jmp main
+	
+cseg at 0050H
+
+main: 
+	clr EA
+	mov WDTCN,#0DEh
+	mov WDTCN,#0ADh
+	setb EA
+
 verm: mov 33H,#00H  
   mov 34H, #00H
   mov 30H, #251d
