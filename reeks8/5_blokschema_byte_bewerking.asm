@@ -42,5 +42,3 @@ loop:
 	mov C, Acc.3 ; accumulator is bit addreseerbaar
 
 	jmp loop
-
-		
