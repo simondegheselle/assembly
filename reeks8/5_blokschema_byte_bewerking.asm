@@ -4,7 +4,7 @@ cseg at 0000H
 	jmp main
 
 cseg at 0050H
-main:
+main: 
 	clr EA
 	mov WDTCN, #0DEh
 	mov WDTCN, #0ADh
