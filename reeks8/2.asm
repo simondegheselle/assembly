@@ -37,6 +37,7 @@ rec:
   push Acc
   call fac
   pop Acc
+  inc A
   mul AB
   mov B,A
   pop 00h
