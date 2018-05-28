@@ -21,10 +21,10 @@ start:
 
   mov C, 22H.7
   orl C, F1
-  mov F0, C
+  mov Acc.0, C
   pop Cy
 
-  xrl C, F0
+  xrl C, Acc.0
   mov P1.6, C
 
   jmp start
