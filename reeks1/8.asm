@@ -5,7 +5,7 @@
 ; 63802, 08333 ticks nodig
 ; fout van 0,08 op 63802 << heel klein
 ; startwaarde 0x6C5
-include (c8051f120.inc)
+$include (c8051f120.inc)
 
 cseg at 0000H
   jmp main
