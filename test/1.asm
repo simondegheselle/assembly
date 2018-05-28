@@ -10,6 +10,10 @@ main:
   mov WDTCN, #0ADH
   setb EA
 
+  mov SFRPAGE, #0Fh
+  mov XBR2, #40h
+  mov P1MDOUT, #40h
+
 start:
   mov C, P1.0
   anl C, F0
