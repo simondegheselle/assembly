@@ -13,10 +13,10 @@ main:
 	mov R2, #01010001b
 	mov B, #00d
 	mov R0, #20H
-loop:	
+loop:
 	mov R1, #08d
 	mov A, @R0
-loop2: 
+loop2:
 	clr C
 	rrc A
 
@@ -25,14 +25,14 @@ loop2:
 	rlc A
 
 	jnc verder
-	
-	xrl A, R2 
+
+	xrl A, R2
 
 verder:
 	mov B, A
 	pop Acc
 
-	djnz R1, loop2	
-	
+	djnz R1, loop2
+
 	inc R0
 	cjne R0, #31H, loop

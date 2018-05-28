@@ -34,14 +34,14 @@ geef_laatste:
 	dec R0
 	dec R0
 	dec R0
-	
+
 	; nu wijs R0 naar eerste argument
 	push 01H
 	mov R1, @R0
 	dec R0
-	
+
 	push 02H ; R2 gebruiken we dus moet op de stapel gezet worden
-	mov 02H, @R0
+	mov R2, @R0
 	dec R0
 
 	mov A, @R0
