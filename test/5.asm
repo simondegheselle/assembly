@@ -44,6 +44,7 @@ bereken_lengte:
 
 rec:
   inc R1
+  inc R2
   push 02h
   push 01h
   call bereken_lengte
