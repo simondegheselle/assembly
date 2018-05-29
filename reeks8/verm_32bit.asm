@@ -75,4 +75,13 @@ schuif_mutliplicant:
 
   ; check eindconditie en jmp naar start
 
+  mov A, #46h
+  jnz start
+  mov A, #47h
+  jnz start
+  mov A, #48h
+  jnz start
+  mov A, #49h
+  jnz start
+
   jmp $
